@@ -21,22 +21,26 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                I'M <strong className="main-name"> UMBERTO BARZAN</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
+                <p className="home-subtitle" style={{ marginTop: 12 }}>
+                  {/* intro/hero line (concisa e sobria) */}
+                  Learning and growing in AI and Computer Vision.
+                </p>
               </div>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
-                alt="home pic"
+                alt="home illustration"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
               />
+              {/* #TODO: sostituisci l'immagine con una tua illustrazione/foto se vuoi */}
             </Col>
           </Row>
         </Container>
